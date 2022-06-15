@@ -1,4 +1,4 @@
-export IMAGE_NAME=polygonio-news-sentiment-repo-api
+export IMAGE_NAME=polygonio-news-sentiment-api
 
 local-build:
 	docker build . -t polygonio-news-sentiment-repo/$(IMAGE_NAME)
