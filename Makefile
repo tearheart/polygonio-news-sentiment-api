@@ -19,7 +19,7 @@ gcp-push:
 	docker push us-central1-docker.pkg.dev/mlops-3/polygonio-news-sentiment-repo/$(IMAGE_NAME)
 
 gcp-run:
-	gcloud run deploy polygonio-news-sentiment-data-v2 \
+	gcloud run deploy polygonio-news-sentiment-api \
   	--image us-central1-docker.pkg.dev/mlops-3/polygonio-news-sentiment-repo/$(IMAGE_NAME) \
   	--platform managed \
   	--region us-central1 \
